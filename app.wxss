@@ -1,0 +1,5 @@
+page {
+  /* 只有font clorl 才可以继承全局样式 */
+  font-family: "PingFangSc-Thin";
+  font-size: 32rpx;
+}

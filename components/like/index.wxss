@@ -1,1 +1,33 @@
 /* components/like/index.wxss */
+
+/* 这个爱心是根据ipone 6 设计、然后微信
+小程序会根据比例进行换算。如果没有根据ipone6 需要自己换算。
+ */
+ /* flex 的子元素会取消块状的特性
+容器本身还是一个块元素
+  */
+  /* 不能固定宽度、因为里面的数字动态变化 */
+  /* inline-flex 消除 flex容器块状元素占整行 */
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10rpx;
+
+}
+
+.container image {
+    width: 32rpx;
+    height: 28rpx;
+}
+
+.container text {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color:#bbbbbb;
+  position: relative;
+  bottom: 10rpx;
+  left: 6;
+}
+
+
+
